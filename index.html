@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider HTML CSS JavaScript</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {
+            font-size: 2.5rem;
+            color: #fff;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        h4 {
+            font-size: 1.25rem;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Card Section Begins -->
+    <section id="cards">
+        <h2>Our Team</h2>
+        <div class="main-content">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <img src="image/image1.jpg" alt="">
+                            <div class="card-title">
+                                <h4>Rohit Sharma</h4>
+                                <p>Top Order Batter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <img src="image/image2.jpg" alt="">
+                            <div class="card-title">
+                                <h4>Virat Kohli</h4>
+                                <p>Top Order Batter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <img src="image/image3.jpg" alt="">
+                            <div class="card-title">
+                                <h4>Jasprit Bumrah</h4>
+                                <p>Bowler</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <img src="image/image4.jpg" alt="">
+                            <div class="card-title">
+                                <h4>Hardik Pandya</h4>
+                                <p>All Rounder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-content">
+                            <img src="image/image5.jpg" alt="">
+                            <div class="card-title">
+                                <h4>Surya Kumar Yadav</h4>
+                                <p>Mid Order Batter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prevArrowBtn">
+                <i class='bx bx-chevron-left'></i>
+            </div>
+            <div class="nextArrowBtn">
+                <i class='bx bx-chevron-right'></i>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!-- Slider main container ends -->
+        </div>
+    </section>
+    <!-- Card Section Ends -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
